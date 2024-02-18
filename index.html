@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css" integrity="sha512-wl80ucxCRpLkfaCnbM88y4AxnutbGk327762eM9E/rRTvY/ZGAHWMZrYUq66VQBYMIYDFpDdJAOGSLyIPHZ2IQ==" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        .cs-font{
+            font-family: poppins;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 cs-font">
+    <div id="wrapper" class="grid grid-cols-1 xl:grid-cols-2 xl:h-screen">
+        <div id="col-1" >
+            <img src="lott_ui.jpg" alt="">
+        </div>
+        <div id="col-2" class="px-3 md:px-20 xl:py-64 xl:px-12">
+
+            <div id="cards" class="rounded-lg flex border py-5 px-6 md:py-8 md:px-16 -mt-6 bg-white xl:-ml-24 xl:pl-8 xl:rounded-xl">
+                <div id="circle" class="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 md:w-16 md:h-16 rounded-full"></div>
+                <p class="pl-4 md:pl-12 text-base pt-1 font-semibold md:text-2xl md:pt-4">“BHUTTAN LOTTERY”</p>
+            </div>
+
+            <div id="cards" class="rounded-lg flex border py-5 px-6 md:py-8 md:px-16 mt-6 md:mt-12 bg-white xl:pl-8 xl:rounded-xl">
+            <div id="circle" class="w-12 mt-2 h-8 bg-gradient-to-r from-purple-500 to-pink-500 md:w-16 md:h-16 rounded-full"></div>
+                <!-- <span class="text-2xl mt-1" >Click here To Get Results</span> -->
+                <button type="button" class="ml-10 md:mt-2 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg w-80 h text-xl px-10 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><a href="lott_user_view.php">Result</a></button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
